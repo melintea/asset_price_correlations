@@ -6,7 +6,9 @@ mypy
 nbqa
 networkx
 pandas
+pandas_datareader
 plotly
 pre-commit
 pylint
 seaborn
+yfinance
