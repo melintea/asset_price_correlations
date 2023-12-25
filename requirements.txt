@@ -1,6 +1,7 @@
 black
 flake8
 jupyter
+kaleido
 matplotlib
 mypy
 nbqa
