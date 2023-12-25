@@ -2,10 +2,10 @@
 
 ![gif](./assets/stock_correlations_gif.gif)
 
-```html
-<!-- {%include ./assets/stock_correlations2.html %} -->
-<iframe src="./assets/stock_correlations2.html"></iframe>
-```
+[//]: #```html
+[//]: #<!-- {%include ./assets/stock_correlations2.html %} -->
+[//]: #<iframe src="./assets/stock_correlations2.html"></iframe>
+[//]: #```
 
 Using __networkx__ and __Plotly__ to visualise correlations between asset prices.
 
