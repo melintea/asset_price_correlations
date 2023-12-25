@@ -4,11 +4,13 @@ jupyter
 matplotlib
 mypy
 nbqa
+nb-black
 networkx
 pandas
 pandas_datareader
 plotly
 pre-commit
 pylint
+scipy
 seaborn
 yfinance
