@@ -11,14 +11,15 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 
 start   = datetime.datetime(2021, 1, 1)
-end     = datetime.datetime(2023,12,31)
-symbols = ['VTI',  'VT',   'VPU',  'VNQ',  'QLTY',  'EWL', 
-           'TFPN',
-	   'VIXY', 'VIXM', 
-           'CCRV', 'CTA',  'GSG',  'KMLM', 
-	   'LTPZ', 'TLT',  'VTIP', 'VWOB',
-	   'CHFUSD=X', 'CADUSD=X', 'EURUSD=X', 'UUP'
-	  ]
+end     = datetime.today()
+symbols = [
+    'VTI',  'VT',   'VPU',  'VNQ',  'QLTY',  'EWL', 
+    'TFPN',
+    'VIXY', 'VIXM', 
+    'CCRV', 'CTA',  'GSG',  'KMLM', 
+    'LTPZ', 'TLT',  'VTIP', 'VWOB',
+    'CHFUSD=X', 'CADUSD=X', 'EURUSD=X', 'UUP'
+    ]
 csvfile = 'daily_asset_prices.csv'
 
 yf.pdr_override()
